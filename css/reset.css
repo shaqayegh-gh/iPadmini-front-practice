@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+nav{
+    list-style: none;
+    display: flex;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+section{
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+}
+p{
+    display: block;
+    color: black;
+}
+.main{
+    background-color: #fff9ef;
+}
+

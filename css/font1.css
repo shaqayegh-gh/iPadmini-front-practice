@@ -1,0 +1,54 @@
+/*@font-face {*/
+/*    font-family:'SF Pro Display';*/
+/*    font-style:normal;*/
+/*    font-weight:500;*/
+/*    src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");*/
+/*    !* (C) 2015 Apple Inc. All rights reserved. *!*/
+/*}*/
+
+@font-face {
+    font-family:'SF Pro Display medium';
+    font-style:normal;
+    /*font-weight:400;*/
+    src: url("../fonts/sf-ui-display-medium-58646be638f96.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+@font-face {
+    font-family:'SF Pro Display semibold';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-semibold-58646eddcae92.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+@font-face {
+    font-family:'SF Pro Display thin';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-thin-58646e9b26e8b.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+@font-face {
+    font-family:'SF Pro Display ultralight';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-ultralight-58646b19bf205.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+@font-face {
+    font-family:'SF Pro Display bold';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-bold-58646a511e3d9.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+@font-face {
+    font-family:'SF Pro Display heavy';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-heavy-586470160b9e5.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+
+@font-face {
+    font-family:'SF Pro Display light';
+    font-style:normal;
+    src: url("../fonts/sf-ui-display-light-58646b33e0551.otf");
+    /* (C) 2015 Apple Inc. All rights reserved. */
+}
+
+

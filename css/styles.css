@@ -1,0 +1,502 @@
+/*header*/
+.main-header {
+    background-color: #322e29;
+    width: 100%;
+    position: fixed;
+    /*position: relative;*/
+    z-index: 100;
+    height: 44px;
+    max-height: 44px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+/*nav1-situated*/
+.nav1-situated{
+    background-color: inherit;
+    height: 44px;
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*align-content: center;*/
+}
+.nav1-situated li {
+    color: #cecdca;
+    font-size: 14px;
+}
+.ham{
+    position: absolute;
+    top: 15px;
+    height: 11px;
+    width: 31px;
+    background-color:#322e29 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.topline{
+    height: 2px;
+    width: 22px;
+    background-color: darkgray;
+
+}
+.buttomline{
+    height: 1px;
+    width: 22px;
+    background-color: darkgray;
+}
+
+
+
+
+/*nav1*/
+.nav1-mainul{
+    background-color: inherit;
+    height: 44px;
+    position: relative;
+    width: 63.802%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.nav1-mainul li {
+    color: #cecdca;
+    font-size: 14px;
+}
+
+.apple-icon{
+    opacity: .8;
+}
+
+.main-header .nav1 .nav1-mainul li a {
+    font-weight: 400;
+}
+
+
+.main-header .nav1 .nav1-mainul .search-icon {
+    width: 18px;
+    position: relative;
+    margin-top: 44px;
+    opacity: .8;
+}
+
+
+.bag-icon {
+    width: 18px;
+    position: relative;
+    opacity: .8;
+
+}
+
+.main-header .nav1 .nav1-mainul li :hover {
+    color: #ffffff;
+}
+
+.main-header.nav1 .nav1-mainul li a:focus {
+    color: #ffffff;
+}
+
+
+/*nav2*/
+.main-header .nav2-container {
+    margin: 0 auto;
+    height: 52px;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #f5e9dd;
+    flex-direction: column;
+}
+
+.main-header .nav2-container .nav2 {
+    margin: 0 auto;
+    position: relative;
+    width: 63.802%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.nav2-ipad-mini {
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 600;
+    float: left;
+    font-family: "SF Pro Display semibold",sans-serif;
+
+}
+
+.main-header .nav2-container ul {
+    background-color: inherit;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.overview {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#span1 {
+    color: grey;
+}
+
+.main-header .nav2-container .overview a:hover {
+    color: #147ce5;
+}
+
+.main-header .nav2-container .overview2 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.main-header .nav2-container .buy-btn {
+    background-color: #147ce5;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    min-width: 23px;
+    border-radius: 12px;
+    padding-bottom: 4px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.main-header .nav2-container .overview2 .buy-btn a :hover {
+    color: aliceblue;
+}
+
+.main-header .nav2-container .nav2-bn-line {
+    width: 980px;
+    height: 1px;
+    background-color: lightgray;
+    z-index: 100;
+}
+
+/*section1*/
+.main .section1 {
+    background-color: #f5e9dd;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section1 .section1-content {
+    width: 63.8020833333%;
+    height: auto;
+    color: #f5e9dd;
+    padding-top: 180px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ipad-mini-headline {
+    font-size: 127px;
+    letter-spacing: -.01em;
+    line-height: .78125;
+    font-family: 'SF Pro Display semibold', sans-serif;
+    color: #111111;
+}
+
+.ipad-mini-subhead {
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: 'SF Pro Display semibold', sans-serif;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 28px;
+    width: 74%;
+    font-size: 19px;
+    line-height: 1.58105;
+    font-weight: 600;
+    letter-spacing: .07em;
+    font-family: "SF Pro Display thin", sans-serif;
+    color: #333333;
+}
+
+.hero-snipe {
+    width: 257px;
+    height: 36px;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.hero-d1 {
+    width: 100%;
+    height: 982px;
+    margin-top: 30px;
+}
+
+/*section-design*/
+.main .section-design {
+    background-color: #fff9ef;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-design .section-design-content {
+    width: 980px;
+    height: auto;
+    color: blue;
+    padding-top: 174px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -17px;
+
+}
+
+.design {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display semibold", sans-serif;
+    color: #888888;
+}
+
+.compact {
+    margin-top: 10px;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 400;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display semibold", sans-serif;
+    color: #333333;
+}
+
+.compact-subhead {
+    margin-top: 20px;
+    width: 69%;
+    font-size: 20px;
+    line-height: 1.48105;
+    letter-spacing: .03em;
+    font-family: "SF Pro Display medium", sans-serif;
+    color: #333333;
+    text-align: left;
+}
+
+.main .section-design .image-design {
+    /*margin-top: 120px;*/
+    width: 900px;
+    height: 631px;
+    position: relative;
+    background-size: 900px 631px;
+    background-image: url("../images/main/ipad_horizontal_silver__c2l1ltmney82_large.png");
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+
+.design-snipe1 {
+    position: absolute;
+    top: -50px;
+    background-image: url("../images/main/design_snipe_01__c6qnb0lk9eky_large.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 760px;
+    background-position: right;
+}
+
+.design-snipe2 {
+    position: absolute;
+    background-image: url("../images/main/design_snipe_02__7y0hty0mrcy2_large.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 700px;
+    background-position: left;
+    top: 380px;
+    left: -130px;
+}
+
+.design-snipe3 {
+    position: absolute;
+    background-image: url("../images/main/design_snipe_03__fozal1aty5ea_large.png");
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 700px;
+    background-position: right;
+    right: -10px;
+    top: 207px;
+}
+
+.screen {
+    position: absolute;
+    background-image: url("../images/main/design_battery_life__gc8qrn82566i_large.jpg");
+    background-repeat: no-repeat;
+    width: 601px;
+    height: 451px;
+    top: 30px;
+    left: 83.5px;
+}
+
+.apple-pencil {
+    position: absolute;
+    background-image: url("../images/main/pencil__c5csarz1cosy_large.png");
+    background-repeat: no-repeat;
+    width: 742px;
+    height: 125px;
+    bottom: -85px;
+    left: 46px;
+}
+
+.section-design .subcopy-wrapper {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 980px;
+    height: auto;
+    background-color: inherit;
+}
+
+.subcopy-w-d1 {
+    text-align: left;
+    height: auto;
+    width: 431px;
+    background-color: inherit;
+}
+
+
+.subcopy-w-d1 .stay-connect {
+    font-size: 31px;
+    line-height: 1.13;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display semibold", sans-serif;
+    color: #111;
+}
+
+.subcopy-w-d1 .learn-more {
+    position: absolute;
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display medium", sans-serif;
+    color: #0070c9;
+}
+
+.subcopy-w-d1 .learn-more:hover {
+    text-decoration: underline #0070c9;
+}
+
+.subcopy-w-d2 {
+    width: 431px;
+    background-color: inherit;
+    height: auto;
+    text-align: left;
+}
+
+
+.up-to10 {
+    font-size: 31px;
+    line-height: 1.13;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display semibold", sans-serif;
+    color: #111;
+}
+
+.main .section-performance{
+    margin-top: 300px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff9ef;
+}
+
+.performance-image{
+    background-image: url(../images/main/ipad_horizontal_silver__c2l1ltmney82_large.png);
+    width: 900px;
+    height: 631px;
+    position: relative;
+    z-index: 1;
+    background-color: inherit;
+}
+.performance-content{
+    width: 46%;
+    height: 631px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: inherit;
+}
+
+.performance-image .screen2{
+    background-image: url("../images/main/performance_perfect_for_ar__ezqggha9z4ya_large.jpg");
+    width: 601px;
+    height: 451px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 30px;
+    left: 83px;
+}
+.performance-snipe1{
+    background-image: url("../images/main/performance_snipe_01__fo5317ij2x26_large.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    right: 90px;
+    top: -52px;
+}
+.performance-content2{
+    height: inherit;
+    width: 60%;
+    background-color: inherit;
+}
+.performance{
+    margin-top: 109px;
+}
+
+.power-sub{
+    width: 100%;
+}
+
+
+
+
