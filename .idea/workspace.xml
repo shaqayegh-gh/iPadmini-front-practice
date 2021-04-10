@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a92bd49-cc3e-4d93-abe0-a0f82d6575ee" name="Default Changelist" comment="" />
+    <list default="true" id="2a92bd49-cc3e-4d93-abe0-a0f82d6575ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/iPad mini.rar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -24,6 +29,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1n6aHj2UNI5pR3jrgqk5k6HHEVx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tamrin1_js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,6 +61,7 @@
       <workItem from="1611831222130" duration="51000" />
       <workItem from="1612041311124" duration="357000" />
       <workItem from="1612093528572" duration="91000" />
+      <workItem from="1618052808062" duration="230000" />
     </task>
     <servers />
   </component>
